@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0E0D0B;
+  --color-bg-elevated: #161311;
+  --color-bg-warm: #1C1814;
+  --color-text: #E8DDC7;
+  --color-text-muted: #B5AC97;
+  --color-text-dim: #6E665A;
+  --color-brass: #B89968;
+  --color-brass-hover: #CDB07F;
+  --color-walnut: #3A2E22;
+  --color-line: #2A241D;
+  --color-success: #7FB17F;
+  --color-error: #E59489;
+
+  --font-display: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  --text-hero: clamp(2.6rem, 5vw + 1rem, 5.8rem);
+  --text-hero--line-height: 1.05;
+  --text-display: clamp(2rem, 3vw + 1rem, 3.6rem);
+  --text-display--line-height: 1.1;
+  --text-title: clamp(1.4rem, 1.5vw + 0.8rem, 2rem);
+  --text-title--line-height: 1.2;
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: 0.22em;
+
+  --container-shell: 80rem;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+*:focus {
+  outline: none;
+}
+*:focus-visible {
+  outline: 2px solid var(--color-brass);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+select:focus,
+select:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--color-brass);
+  color: var(--color-bg);
+  padding: 0.75rem 1rem;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}

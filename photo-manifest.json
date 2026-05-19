@@ -1,0 +1,67 @@
+{
+  "_comment": "Unsplash short IDs (the alphanumeric slug from https://unsplash.com/photos/<id>). Downloader resolves them via /download?w=2400 which 302s to the full-size image. License: Unsplash (free, commercial OK; attribution credited in photos-attribution.md).",
+  "photos": [
+    { "unsplashId": "lH3fkNP5aJ0", "role": "home-hero",        "targetPath": "public/hero.jpg",                                       "description": "Dark moody kitchen, marble counter, black cabinets" },
+
+    { "unsplashId": "dWH92v9E6j4", "role": "category-teaser",  "targetPath": "public/categorii/bucatarii.jpg",                       "description": "Modern living + dark kitchen with marble flooring" },
+    { "unsplashId": "oOfuQYniREA", "role": "category-teaser",  "targetPath": "public/categorii/dressing.jpg",                        "description": "Wooden shelving, organized display" },
+    { "unsplashId": "9okINQ6jD24", "role": "category-teaser",  "targetPath": "public/categorii/living.jpg",                          "description": "Living room with fireplace + built-in shelves" },
+    { "unsplashId": "qy21k_SGPlE", "role": "category-teaser",  "targetPath": "public/categorii/dormitor.jpg",                        "description": "Bed with pillows and bedside lamp" },
+
+    { "unsplashId": "bhV15497Nr8", "role": "portfolio-cover",  "targetPath": "public/portfolio/bucatarie-buna-ziua/cover.jpg",       "description": "Contemporary dark kitchen, marble floor" },
+    { "unsplashId": "bWfP4W8Pb9c", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-buna-ziua/01.jpg",          "description": "Kitchen with black cabinet" },
+    { "unsplashId": "pk33GXqNE_Q", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-buna-ziua/02.jpg",          "description": "Kitchen with black cabinetry" },
+    { "unsplashId": "0JiDrI8UiYM", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-buna-ziua/03.jpg",          "description": "Island, pendant lights, bar stools" },
+    { "unsplashId": "aoVqZ-gkpUY", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-buna-ziua/04.jpg",          "description": "Modern kitchen island with seating + sink" },
+
+    { "unsplashId": "Az9uF9Q85qc", "role": "portfolio-cover",  "targetPath": "public/portfolio/bucatarie-dambul-rotund/cover.jpg",   "description": "Kitchen with sink and cabinets" },
+    { "unsplashId": "Zei3KdH5SDI", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-dambul-rotund/01.jpg",      "description": "Dark kitchen with window + sink" },
+    { "unsplashId": "hYb7kbu4x7E", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-dambul-rotund/02.jpg",      "description": "Modern kitchen with wood cabinet" },
+    { "unsplashId": "PC67Im71yVk", "role": "portfolio-gallery","targetPath": "public/portfolio/bucatarie-dambul-rotund/03.jpg",      "description": "Kitchen with appliances" },
+
+    { "unsplashId": "SseNV6Ycb1c", "role": "portfolio-cover",  "targetPath": "public/portfolio/dressing-marasti/cover.jpg",          "description": "Walk-in closet with mirror and stool" },
+    { "unsplashId": "qlAWpiUiFyc", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-marasti/01.jpg",             "description": "Organized walk-in: shelving, drawers, luggage" },
+    { "unsplashId": "XBM1Q0I-2WU", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-marasti/02.jpg",             "description": "Modern dressing room with vanity" },
+    { "unsplashId": "CpSo17mu8f0", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-marasti/03.jpg",             "description": "Wooden shelves showcasing footwear" },
+    { "unsplashId": "RHARVor_ydc", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-marasti/04.jpg",             "description": "Wooden bench + built-in cupboards" },
+
+    { "unsplashId": "lXnQrtLp9_Q", "role": "portfolio-cover",  "targetPath": "public/portfolio/dressing-zorilor/cover.jpg",          "description": "White shelving with mirror integration" },
+    { "unsplashId": "22bEhQA7SMo", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-zorilor/01.jpg",             "description": "Spacious walk-in with wooden flooring" },
+    { "unsplashId": "CXDLmHqhLmk", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-zorilor/02.jpg",             "description": "Contemporary closet with garments" },
+    { "unsplashId": "M6T7PXLjDQo", "role": "portfolio-gallery","targetPath": "public/portfolio/dressing-zorilor/03.jpg",             "description": "Bedroom interior + built-in wardrobe" },
+
+    { "unsplashId": "RfWjsJtglPE", "role": "portfolio-cover",  "targetPath": "public/portfolio/living-gheorgheni/cover.jpg",         "description": "Living room with built-in shelves + decor" },
+    { "unsplashId": "MsRSA34Rwt8", "role": "portfolio-gallery","targetPath": "public/portfolio/living-gheorgheni/01.jpg",            "description": "Built-in shelves with decor + plant" },
+    { "unsplashId": "aaONSK4BKxc", "role": "portfolio-gallery","targetPath": "public/portfolio/living-gheorgheni/02.jpg",            "description": "Modern built-in shelves with art decor" },
+    { "unsplashId": "qbe_iid81xU", "role": "portfolio-gallery","targetPath": "public/portfolio/living-gheorgheni/03.jpg",            "description": "Modern built-in shelving unit" },
+    { "unsplashId": "FobBIRCCpfE", "role": "portfolio-gallery","targetPath": "public/portfolio/living-gheorgheni/04.jpg",            "description": "Living room with fireplace + shelves" },
+
+    { "unsplashId": "XV04geaAL1o", "role": "portfolio-cover",  "targetPath": "public/portfolio/vila-faget/cover.jpg",                "description": "Living room with furniture + fireplace" },
+    { "unsplashId": "hYirNcm6FaQ", "role": "portfolio-gallery","targetPath": "public/portfolio/vila-faget/01.jpg",                   "description": "Living room with armchair + fireplace" },
+    { "unsplashId": "G5jPfwxZRzQ", "role": "portfolio-gallery","targetPath": "public/portfolio/vila-faget/02.jpg",                   "description": "Modern living room with fireplace + sofa" },
+    { "unsplashId": "RWGuQRbYPeg", "role": "portfolio-gallery","targetPath": "public/portfolio/vila-faget/03.jpg",                   "description": "White armchair in front of built-in shelves" },
+
+    { "unsplashId": "pk7kmIPcJ1E", "role": "portfolio-cover",  "targetPath": "public/portfolio/dormitor-buna-ziua/cover.jpg",        "description": "Spacious contemporary room, dark wood floor" },
+    { "unsplashId": "SpDKzy83DmY", "role": "portfolio-gallery","targetPath": "public/portfolio/dormitor-buna-ziua/01.jpg",           "description": "Spacious bedroom with fireplace + large bed" },
+    { "unsplashId": "0pgXqbEDyuY", "role": "portfolio-gallery","targetPath": "public/portfolio/dormitor-buna-ziua/02.jpg",           "description": "Contemporary bedroom, brown bed + chair" },
+    { "unsplashId": "Xph_EJ-22vE", "role": "portfolio-gallery","targetPath": "public/portfolio/dormitor-buna-ziua/03.jpg",           "description": "Luxurious bedroom with modern decor, large windows" },
+
+    { "unsplashId": "OkZJsGqsrWU", "role": "portfolio-cover",  "targetPath": "public/portfolio/apartament-andrei-muresanu/cover.jpg","description": "Modern bedroom with bed, vanity, closet" },
+    { "unsplashId": "Dua0qvBmBtY", "role": "portfolio-gallery","targetPath": "public/portfolio/apartament-andrei-muresanu/01.jpg",   "description": "Modern bedroom with minimalist decor" },
+    { "unsplashId": "0CB4Z3GEwwk", "role": "portfolio-gallery","targetPath": "public/portfolio/apartament-andrei-muresanu/02.jpg",   "description": "Elegant sleeping area with gold wall sconce" },
+    { "unsplashId": "W3s4E7qM2uQ", "role": "portfolio-gallery","targetPath": "public/portfolio/apartament-andrei-muresanu/03.jpg",   "description": "Bed positioned beside window" },
+
+    { "unsplashId": "JH_R66BihvA", "role": "materiale-swatch", "targetPath": "public/materiale/stejar-sonoma.jpg",                   "description": "Light oak wood plank texture" },
+    { "unsplashId": "HYZLZYJfkIk", "role": "materiale-swatch", "targetPath": "public/materiale/stejar-halifax.jpg",                  "description": "Brown wood surface, varied tones" },
+    { "unsplashId": "KKKHaEA4coc", "role": "materiale-swatch", "targetPath": "public/materiale/nuc.jpg",                             "description": "Close-up dark wood grain texture" },
+    { "unsplashId": "0H2v0Uec7Zk", "role": "materiale-swatch", "targetPath": "public/materiale/frasin.jpg",                          "description": "Beige wooden wall, light finish" },
+
+    { "unsplashId": "dNpok5YghyM", "role": "process",          "targetPath": "public/process/atelier.jpg",                           "description": "Worker using circular saw, warm lighting" },
+
+    { "unsplashId": "38OOhn_R6aA", "role": "despre",           "targetPath": "public/despre/portrait.jpg",                           "description": "Person at miter saw, grayscale (no face)" },
+    { "unsplashId": "42eUGq_IOow", "role": "despre",           "targetPath": "public/despre/workshop.jpg",                           "description": "Hand tools hanging on workshop wall" },
+    { "unsplashId": "7I_t-Ja392k", "role": "despre",           "targetPath": "public/despre/tools.jpg",                              "description": "Woodworking tools on wooden table" },
+    { "unsplashId": "BMCZlEFOI44", "role": "despre",           "targetPath": "public/despre/raw-wood.jpg",                           "description": "Pile of wood pieces on work surface" },
+    { "unsplashId": "c91LS-JK7cw", "role": "despre",           "targetPath": "public/despre/detail.jpg",                             "description": "Hammer and wood surface detail" }
+  ]
+}
