@@ -3,7 +3,6 @@ import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/nav/Navbar";
 import { Footer } from "@/components/nav/Footer";
-import { DemoBanner } from "@/components/ui/DemoBanner";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -33,7 +32,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ro" className={`${playfair.variable} ${inter.variable} scroll-smooth`}>
       <body className="min-h-screen bg-bg text-text font-sans antialiased">
         <a href="#main" className="skip-link">Sari la conținut</a>
-        <DemoBanner />
         <Navbar />
         <main id="main">{children}</main>
         <Footer />
